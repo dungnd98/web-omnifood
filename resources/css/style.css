@@ -295,3 +295,42 @@ header {
     border-bottom: 1px solid transparent;
 }
 
+/* ----------------------------------- */
+/* SECTION-TESTIMONIALS */
+/* ----------------------------------- */
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.testimonials {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.testimonials-img img {
+    width: 50px;
+    height: auto;
+    border-radius: 200%;
+    margin-right: 20px;
+}
+
+.section-testimonials .box-p {
+    font-style: oblique;
+    font-size: 100%;
+}
+
+.testimonials-name {
+    font-style: oblique;
+}
+
+.box-p::before {
+    content: "\201C";
+    display: block;
+    font-size: 400%;
+}
+
