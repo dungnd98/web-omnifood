@@ -245,7 +245,7 @@ header {
 }
 
 .works-step div {
-    display: inline-block;
+    /* display: inline-block; */
     margin-right: 30px;
     width: 50px;
     height: 50px;
@@ -333,4 +333,54 @@ header {
     display: block;
     font-size: 400%;
 }
+
+/* ----------------------------------- */
+/* SECTION-PLANS */
+/* ----------------------------------- */
+
+.section-plans {
+    background-color: #f5f5f5;
+}
+
+.plans-box {
+    background-color: #fff;
+    border-radius: 7px;
+    width: 80%;
+    margin-left: 5%;
+    box-shadow: 0px 2px 5px #adadad;;
+}
+
+.plans-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+    /* text-align: center; */
+}
+
+.plans-box div:first-child {
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 7px;
+}
+
+.plans-box div:last-child {
+    text-align: center;
+}
+
+.plans-price {
+    font-size: 300%;
+    margin-bottom: 15px;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.plans-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plans-box ul {
+    list-style: none;
+    line-height: 200%;
+}
+
 
